@@ -18,23 +18,22 @@ export class AppComponent {
 
   constructor(
     private dataService: DataService
-  ) { 
-  }
+  ) {}
 
   async ngAfterViewInit() {
-    await this.getProyectos();
     await this.getCategorias();
+    await this.getProyectos();
   }
 
-  async getCategorias(){
+  async getCategorias() {
     this.categorias = await this.dataService.getCategorias();
   }
 
-  async getProyectos(){
+  async getProyectos() {
     this.proyectos = await this.dataService.getProyectos();
   }
-  
-  get edad(){
+
+  get edad() {
     return moment().diff('2000-12-12', 'years');
   }
 
