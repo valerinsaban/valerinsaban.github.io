@@ -27,7 +27,19 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "src/assets/js/jquery-2.1.3.min.js",
+              "src/assets/js/modernizr.custom.js",
+              "src/assets/js/animating.js",
+              "src/assets/js/imagesloaded.pkgd.min.js",
+              "src/assets/js/perfect-scrollbar.min.js",
+              "src/assets/js/jquery.shuffle.min.js",
+              "src/assets/js/masonry.pkgd.min.js",
+              "src/assets/js/owl.carousel.min.js",
+              "src/assets/js/jquery.magnific-popup.min.js",
+              "src/assets/js/validator.js",
+              "src/assets/js/main.js"
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {

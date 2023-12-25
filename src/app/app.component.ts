@@ -20,12 +20,9 @@ export class AppComponent {
   constructor(
     private dataService: DataService,
     private scriptsService: ScriptsService
-  ) { }
-
-  async ngOnInit(){
-    await this.getCategorias();
-    await this.getProyectos();
-    await this.scriptsService.animaciones();
+  ) { 
+    this.getCategorias();
+    this.getProyectos();
   }
 
   async getCategorias(){
