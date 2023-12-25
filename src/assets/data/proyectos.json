@@ -1,0 +1,44 @@
+[
+  {
+    "nombre": "Fundacion Hogar Shalom",
+    "slug": "hogar-shalom",
+    "categoria": "sitios-web",
+    "url": "https://fundacionhogarshalom.com.gt",
+    "descripcion": "Sitio web de la Fundacion Hogar Shalom",
+    "image": "https://fundacionhogarshalom.com.gt/wp-content/uploads/2023/05/WhatsApp-Image-2023-04-26-at-17.04.45.jpeg",
+    "galeria": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ]
+  },
+  {
+    "nombre": "Ambiente GT",
+    "slug": "ambiente-gt",
+    "categoria": "sitios-web",
+    "url": "https://ambiente.com.gt",
+    "descripcion": "Sitio web de Ambiente GT",
+    "image": "https://ambiente.com.gt/images/slider/slide3.png",
+    "galeria": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ]
+  },
+  {
+    "nombre": "Instituo de Fomento Municipal (INFOM)",
+    "slug": "infom",
+    "categoria": "aplicaciones",
+    "url": "https://infom.gob.gt",
+    "descripcion": "Sitio web de INFOM",
+    "image": "https://infom.gob.gt/templates/yootheme/cache/a9/Home-Infom-Guatemala-a9d31a64.webp",
+    "galeria": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ]
+  }
+]
