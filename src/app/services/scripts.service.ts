@@ -12,15 +12,21 @@ export class ScriptsService {
     private rendererFactory: RendererFactory2,
     @Inject(DOCUMENT) private _document: Document
   ) { 
-    this.renderer = rendererFactory.createRenderer(null, null);
+    this.renderer = this.rendererFactory.createRenderer(null, null);
   }
 
-  animaciones() {
-    this.loadScript('assets/js/plugins.min.js');
-    this.loadScript('assets/js/common.js');
-    
-    this.removeScript('assets/js/plugins.min.js');
-    this.removeScript('assets/js/common.js');
+  async animaciones() {
+    this.loadScript('assets/js/jquery-2.1.3.min.js');
+    this.loadScript('assets/js/modernizr.custom.js');
+    this.loadScript('assets/js/animating.js');
+    this.loadScript('assets/js/imagesloaded.pkgd.min.js');
+    this.loadScript('assets/js/perfect-scrollbar.min.js');
+    this.loadScript('assets/js/jquery.shuffle.min.js');
+    this.loadScript('assets/js/masonry.pkgd.min.js');
+    this.loadScript('assets/js/owl.carousel.min.js');
+    this.loadScript('assets/js/jquery.magnific-popup.min.js');
+    this.loadScript('assets/js/validator.js');
+    this.loadScript('assets/js/main.js');
   }
 
   loadScript(url: string) {
